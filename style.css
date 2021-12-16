@@ -1,0 +1,91 @@
+@media screen and (max-width: 425px) {
+
+/* Police */
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Police/RobotoCondensed-Light.ttf') format('truetype');
+}
+
+html {
+    font-family: 'Roboto'
+}
+
+/* Classe répétitive */
+
+    .flexCenter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flexColumn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .space-around {
+        display: flex;
+        justify-content: space-around;
+    }
+
+/*~ Header ~*/
+
+    /* 1ère partie */
+
+    .logo {
+        margin-top: 5px;
+    }
+
+    /* 2ème partie */
+
+    .place {
+        border-top: rgb(82, 82, 82) 1px ;
+        background-color: rgb(235, 235, 235);
+        padding-top: 15px;
+        margin-top: 15px;
+        height: 40px;
+    }
+
+    .flexCE {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .paddingLeft {
+        padding-left: 15px;
+    }
+
+    /* 3ème partie */
+
+    .texte-bouton {
+        background-color: rgb(243, 243, 243);
+        height: 300px;
+        text-align: center;
+    }
+
+    .second-p1 {
+        font-weight: 1000;
+        font-size: x-large;
+        line-height: 90%;
+        
+    }
+
+    .second-p2 {
+        font-weight: 600;
+        margin-inline-end: 2px;
+    }
+
+    .bouton {
+        margin-bottom: 60px;
+        width: 250px;
+        border-top-left-radius: 25%;
+        border-top-right-radius: 25%;
+        border-bottom-left-radius: 25%;
+        border-bottom-right-radius: 25%;
+        background-image:linear-gradient(white, black);
+        }
+}
+
+
+
