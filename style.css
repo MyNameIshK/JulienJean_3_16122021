@@ -4,14 +4,20 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url('Police/RobotoCondensed-Light.ttf') format('truetype');
+    src: url('Police/Roboto-Black.ttf') format('truetype');
+    font-family: 'Shrikhand';
+    src: url('Police/Shrikhand-Regular.otf') format('opentype');
 }
 
-html {
-    font-family: 'Roboto'
+body {
+    margin: 0;
 }
 
 /* Classe répétitive */
+
+    .fontRoboto {
+        font-family: 'Roboto';
+    }
 
     .flexCenter {
         display: flex;
@@ -33,8 +39,15 @@ html {
 
     /* 1ère partie */
 
-    .logo {
-        margin-top: 5px;
+    .titreHeader {
+        font-family: 'Shrikhand';
+        font-size: x-large;
+        padding: 3%;
+    }
+
+    .boxShadow {
+        position: relative;
+        box-shadow: 0 1px 5px 0px gray;
     }
 
     /* 2ème partie */
@@ -42,8 +55,7 @@ html {
     .place {
         border-top: rgb(82, 82, 82) 1px ;
         background-color: rgb(235, 235, 235);
-        padding-top: 15px;
-        margin-top: 15px;
+        padding-top: 5%;
         height: 40px;
     }
 
@@ -53,6 +65,7 @@ html {
     }
 
     .paddingLeft {
+        font-family: 'Roboto';
         padding-left: 15px;
     }
 
