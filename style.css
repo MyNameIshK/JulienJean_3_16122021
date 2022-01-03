@@ -1,104 +1,60 @@
-@media screen and (max-width: 425px) {
-
-/* Police */
-
-@font-face {
-    font-family: 'Roboto';
-    src: url('Police/Roboto-Black.ttf') format('truetype');
-    font-family: 'Shrikhand';
-    src: url('Police/Shrikhand-Regular.otf') format('opentype');
-}
+/* Body */
 
 body {
     margin: 0;
 }
 
-/* Classe répétitive */
+/* Police */
 
-    .fontRoboto {
-        font-family: 'Roboto';
-    }
+@font-face {
+    font-family: 'Roboto';
+    src: url('Police/Roboto-Light.ttf') format("truetype");
+}
 
-    .flexCenter {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .flexColumn {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .space-around {
-        display: flex;
-        justify-content: space-around;
-    }
+@font-face {
+    font-family: 'Shrikhand';
+    src: url('Police/Shrikhand-Regular.otf') format("opentype");
+}
 
 /*~ Header ~*/
 
-    /* 1ère partie */
-
-    .titreHeader {
+    h1 {
         font-family: 'Shrikhand';
-        font-size: x-large;
-        padding: 3%;
-    }
-
-    .boxShadow {
-        position: relative;
-        box-shadow: 0 1px 5px 0px gray;
-    }
-
-    /* 2ème partie */
-
-    .place {
-        border-top: rgb(82, 82, 82) 1px ;
-        background-color: rgb(235, 235, 235);
-        padding-top: 5%;
-        height: 40px;
-    }
-
-    .flexCE {
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    .paddingLeft {
-        font-family: 'Roboto';
-        padding-left: 15px;
-    }
-
-    /* 3ème partie */
-
-    .texte-bouton {
-        background-color: rgb(243, 243, 243);
-        height: 300px;
         text-align: center;
+        position: relative;
+        box-shadow: 0px 5px 6px 0px #b8b6b6;
+        padding: 15px;
+        margin: 0;
+        box-sizing: border-box;
     }
 
-    .second-p1 {
-        font-weight: 1000;
-        font-size: x-large;
-        line-height: 90%;
-        
+    a {
+        text-decoration: none;
+        color: inherit;
+        cursor: pointer;
     }
 
-    .second-p2 {
-        font-weight: 600;
-        margin-inline-end: 2px;
+/*~ Main ~*/
+
+    /* Paris, Belleville */
+
+    .lieu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5%;
+        background-color: gainsboro;
     }
 
-    .bouton {
-        margin-bottom: 60px;
-        width: 250px;
-        border-top-left-radius: 25%;
-        border-top-right-radius: 25%;
-        border-bottom-left-radius: 25%;
-        border-bottom-right-radius: 25%;
-        background-image:linear-gradient(white, black);
-        }
-}
+    h2 {
+        font-family: 'Roboto';
+    }
+
+    /* Explorer nos restaurants */
+
+    /* Filtres */
+
+    /* Images */
 
 
 
