@@ -12,49 +12,94 @@ body {
 }
 
 @font-face {
+    font-family: 'RobotoBold';
+    src: url('Police/Roboto-Bold.ttf') format("truetype");
+}
+
+@font-face {
     font-family: 'Shrikhand';
     src: url('Police/Shrikhand-Regular.otf') format("opentype");
 }
 
 /*~ Header ~*/
 
-    h1 {
-        font-family: 'Shrikhand';
-        text-align: center;
-        position: relative;
-        box-shadow: 0px 5px 6px 0px #b8b6b6;
-        padding: 15px;
-        margin: 0;
-        box-sizing: border-box;
-    }
+h1 {
+    font-family: 'Shrikhand';
+    text-align: center;
+    position: relative;
+    box-shadow: 0px 5px 6px 0px #b8b6b6;
+    padding: 15px;
+    margin: 0;
+    box-sizing: border-box;
+}
 
-    a {
-        text-decoration: none;
-        color: inherit;
-        cursor: pointer;
-    }
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
 
 /*~ Main ~*/
 
-    /* Paris, Belleville */
+/* Paris, Belleville */
 
-    .lieu {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 1.5%;
-        background-color: gainsboro;
-    }
+.display-lieu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    background-color: rgb(238, 238, 238);
+}
 
-    h2 {
-        font-family: 'Roboto';
-    }
+h2 {
+    font-family: 'RobotoBold';
+}
 
-    /* Explorer nos restaurants */
+/* Explorer nos restaurants */
 
-    /* Filtres */
+.display-explorer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(248, 248, 248);
+    padding: 20px 30px;
+    height: fit-content;
+}
 
-    /* Images */
+.flexCenter {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
 
+h3 {
+    font-family: 'RobotoBold';
+    font-size: 1.5em;
+    margin-bottom: 0px;
+}
 
+p {
+    font-family: 'Roboto';
+    padding-bottom: 20px;
+}
 
+.boutton-explorer {
+    font-family: 'Roboto';
+    font-size: 17px;
+    padding: 15px 20px;
+    border-radius: 32px;
+    cursor: pointer;
+    color: white;
+    background-image: linear-gradient(#ff79da, #9356dc);
+    box-shadow: 0px 0px 15px 0px #adacac;
+    text-align: center;
+    width: auto;
+    margin-bottom: 40px;
+    font-weight: bold;
+    letter-spacing: 1.25px;
+}
+
+/* Filtres */
+
+/* Images */
