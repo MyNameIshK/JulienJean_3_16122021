@@ -165,3 +165,64 @@ p {
 }
 
 /* Images */
+
+.background-images {
+    background-color: rgb(248, 248, 248);
+    padding: 40px;
+}
+
+.premier-bloc-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.fond-images {
+    background-color: white;
+    box-shadow: 4px 8px 8px 1px rgb(235, 235, 235);
+    border-radius: 15px;
+    width: 100%;
+}
+
+.image1 {
+    background-image: url(../Projet3/Assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
+    height: 300px;
+    width: 100%;
+}
+
+.texte-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4%;
+    height: 80px;
+    padding-bottom: 0;
+}
+
+.line-height {
+    line-height: 0.7em;
+}
+
+.image2 {
+    background-image: url(../Projet3/Assets/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
+    height: 300px;
+    width: 100%;
+}
+
+.positionnement-coeur {
+    padding-bottom: 30px;
+    padding-right: 10px;
+}
+
+.couleur-coeur:hover {
+    background-image: linear-gradient(#ff79da #9356dc);
+}
+
+/* Footer */
