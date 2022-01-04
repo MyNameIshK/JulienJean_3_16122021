@@ -139,7 +139,7 @@ p {
 }
 
 .filtres:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .numéro-filtres {
@@ -160,6 +160,7 @@ p {
 }
 
 .padding-texte-filtres {
+    font-size: large;
     padding-left: 30px;
 }
 
