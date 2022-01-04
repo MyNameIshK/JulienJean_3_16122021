@@ -26,8 +26,16 @@ body {
     src: url('Police/Shrikhand-Regular.otf') format("opentype");
 }
 
-.roboto {
+.robotoBold {
     font-family: 'RobotoBold';
+}
+
+.roboto {
+    font-family: 'Roboto';
+}
+
+.shrikhand {
+    font-family: 'Shrikhand';
 }
 
 /*~ Header ~*/
@@ -115,6 +123,10 @@ p {
     padding: 40px;
 }
 
+.margin-top {
+    margin-top: 0;
+}
+
 .flex-filtres {
     display: flex;
     justify-content: space-around;
@@ -194,6 +206,33 @@ p {
     width: 100%;
 }
 
+.image2 {
+    background-image: url(../Projet3/Assets/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
+    height: 300px;
+    width: 100%;
+}
+
+.image3 {
+    background-image: url(../Projet3/Assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
+    height: 300px;
+    width: 100%;
+}
+
+.image4 {
+    background-image: url(../Projet3/Assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
+    height: 300px;
+    width: 100%;
+}
+
 .texte-image {
     display: flex;
     justify-content: space-between;
@@ -207,22 +246,30 @@ p {
     line-height: 0.7em;
 }
 
-.image2 {
-    background-image: url(../Projet3/Assets/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    border-radius: 15px 15px 0px 0px;
-    height: 300px;
-    width: 100%;
-}
-
 .positionnement-coeur {
     padding-bottom: 30px;
     padding-right: 10px;
 }
 
-.couleur-coeur:hover {
-    background-image: linear-gradient(#ff79da #9356dc);
+/* Footer */
+
+.fond-organisation-footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(26, 26, 26);
+    padding: 5%;
+    padding-left: 0;
 }
 
-/* Footer */
+.font-size-couleur-footer {
+    font-size: larger;
+    color: white;
+}
+
+.padding-icone-footer {
+    padding-right: 10px;
+}
+
+.a {
+    text-decoration: none;
+}
