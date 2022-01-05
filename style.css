@@ -183,7 +183,7 @@ p {
     padding: 40px;
 }
 
-.premier-bloc-images {
+.bloc-images {
     display: flex;
     justify-content: space-between;
     gap: 50px;
@@ -197,28 +197,42 @@ p {
     width: 100%;
 }
 
-.image1 {
-    background-image: url(../Projet3/Assets/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
+.contenant-image {
+    position: relative;
+    text-align: center;
+}
+
+.image1 {    
+    object-fit: cover;
     border-radius: 15px 15px 0px 0px;
     height: 300px;
     width: 100%;
 }
 
 .image2 {
-    background-image: url(../Projet3/Assets/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
+    object-fit: cover;
     border-radius: 15px 15px 0px 0px;
     height: 300px;
     width: 100%;
 }
 
+.texte-nouveau-image {
+    position: absolute;
+    top: 30px;
+    right: -20px;
+    transform: translate(-50%, -50%);
+    color: #07894c;
+    background-color: #96ffce;
+    padding: 10px;
+    font-family: 'RobotoBold';
+    border-radius: 5px;
+}
+
 .image3 {
     background-image: url(../Projet3/Assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
-    background-size: cover;
     background-position: center;
+    background-size: cover;
+    object-fit: cover;
     border-radius: 15px 15px 0px 0px;
     height: 300px;
     width: 100%;
@@ -226,12 +240,14 @@ p {
 
 .image4 {
     background-image: url(../Projet3/Assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
-    background-size: cover;
     background-position: center;
+    background-size: cover;
+    object-fit: cover;
     border-radius: 15px 15px 0px 0px;
     height: 300px;
     width: 100%;
 }
+
 
 .texte-image {
     display: flex;
@@ -258,7 +274,6 @@ p {
     justify-content: space-around;
     background-color: rgb(26, 26, 26);
     padding: 5%;
-    padding-left: 0;
 }
 
 .font-size-couleur-footer {
@@ -272,4 +287,32 @@ p {
 
 .a {
     text-decoration: none;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 768px) {
+    .bloc-images {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .flex-filtres {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 40px;
+        width: 100%;
+    }
+    .ohmyfood-footer {
+        padding-left: 15px;
+    }
+    .fond-organisation-footer {
+        flex-direction: column;
+        padding-left: 25px;
+    }
+    .responsive-footer {
+        padding-top: 15px;
+        padding-left: 15px;
+        line-height: 1.8em;
+    }
 }
