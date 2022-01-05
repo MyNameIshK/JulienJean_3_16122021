@@ -117,6 +117,10 @@ p {
     letter-spacing: 1.25px;
 }
 
+.boutton-explorer:hover {
+    transform: scale(1.18);
+}
+
 /* Filtres */
 
 .padding-filtres {
