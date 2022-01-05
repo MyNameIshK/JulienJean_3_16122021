@@ -202,7 +202,7 @@ p {
     text-align: center;
 }
 
-.image1 {    
+.image1 {
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
     height: 300px;
@@ -295,13 +295,12 @@ p {
 /* Media queries */
 
 @media screen and (max-width: 768px) {
-
     .bloc-images {
         flex-direction: column;
     }
 }
-@media screen and (max-width: 1024px) {
 
+@media screen and (max-width: 1024px) {
     .flex-filtres {
         flex-direction: column;
         align-items: center;
@@ -312,7 +311,7 @@ p {
     .fond-footer {
         padding-left: 25px;
     }
-    
+
     .responsive-footer {
         flex-direction: column;
         padding-left: 15px;
