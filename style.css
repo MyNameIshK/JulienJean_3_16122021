@@ -230,6 +230,7 @@ p {
     padding: 10px;
     font-family: 'RobotoBold';
     border-radius: 5px;
+    box-shadow: 0 0 10px 1px black;
 }
 
 .image3 {
