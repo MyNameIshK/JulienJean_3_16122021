@@ -218,8 +218,8 @@ p {
 
 .texte-nouveau-image {
     position: absolute;
-    top: 30px;
-    right: -20px;
+    top: 35px;
+    right: -25px;
     transform: translate(-50%, -50%);
     color: #07894c;
     background-color: #96ffce;
