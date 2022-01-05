@@ -283,6 +283,11 @@ p {
     padding-right: 10px;
 }
 
+.ohmyfood-font-size-couleur-footer {
+    font-size: x-large;
+    color: white;
+}
+
 .font-size-couleur-footer {
     font-size: larger;
     color: white;
