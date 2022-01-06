@@ -208,14 +208,7 @@ p {
     text-align: center;
 }
 
-.image1 {
-    object-fit: cover;
-    border-radius: 15px 15px 0px 0px;
-    height: 300px;
-    width: 100%;
-}
-
-.image2 {
+.image {
     object-fit: cover;
     border-radius: 15px 15px 0px 0px;
     height: 300px;
@@ -234,27 +227,6 @@ p {
     border-radius: 5px;
     box-shadow: 0 0 10px 1px black;
 }
-
-.image3 {
-    background-image: url(../Projet3/Assets/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
-    background-position: center;
-    background-size: cover;
-    object-fit: cover;
-    border-radius: 15px 15px 0px 0px;
-    height: 300px;
-    width: 100%;
-}
-
-.image4 {
-    background-image: url(../Projet3/Assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
-    background-position: center;
-    background-size: cover;
-    object-fit: cover;
-    border-radius: 15px 15px 0px 0px;
-    height: 300px;
-    width: 100%;
-}
-
 
 .texte-image {
     display: flex;
