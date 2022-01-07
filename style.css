@@ -309,3 +309,83 @@ p {
 
 /* MENU A LA FRANCAISE */
 
+/* Image */
+
+.image-menu3 {
+    object-fit: cover;
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+
+/* À la française */
+
+.texte-francaise {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    position: relative;
+    top: -54px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 45px 45px 0 0;
+    font-size: x-large;
+    font-family: 'Shrikhand';
+}
+
+/* Entrées, plats, desserts */
+
+.fond-menu {
+    position: relative;
+    top: -55px;
+    background-color: rgb(238,238,238);
+}
+
+.padding {
+    padding: 20px;
+}
+
+.texte-titre-bloc {
+    font-family: 'Roboto-Light';
+    border-bottom: seagreen 3px solid;
+    border-width: 30px;
+}
+
+.contenant-bloc {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 8px 0 #b8b6b6;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 25px;
+    padding-bottom: 0;
+}
+
+.flexBetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+.marginNone {
+    margin: 0;
+}
+
+.paddingTop {
+    padding-top: 5px;
+}
+
+.flexC {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Footer */
+
+.marginTopFooter {
+    margin-top: -55px;
+}
