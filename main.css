@@ -365,6 +365,11 @@ p {
     padding: 10px;
 }
 
+.flexC {
+    display: flex;
+    flex-direction: column;
+}
+
 .texte-titre-bloc {
     font-family: 'Roboto';
     margin: 10px;
@@ -390,22 +395,16 @@ p {
     padding-bottom: 0;
 }
 
+.marginNone {
+    margin: 0;
+}
 .flexBetween {
     display: flex;
     justify-content: space-between;
 }
 
-.marginNone {
-    margin: 0;
-}
-
 .paddingTop {
     padding-top: 5px;
-}
-
-.flexC {
-    display: flex;
-    flex-direction: column;
 }
 
 .boutton-commander {
