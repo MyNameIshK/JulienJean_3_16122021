@@ -1,0 +1,14 @@
+Pour aujourd'hui :
+
+- S'occuper de l'animation du coeur et des vignettes des menus
+et du chargement de la page d'acceuil
+
+- flèche retour en arrière au niveau de ohmyfood
+
+- faire un dossier html pour les différents menu (href)
+
+- css a appelé en main.css
+
+- ohmyfood doit s'appeler index.html
+
+- trouver comment déployer le site github pages
