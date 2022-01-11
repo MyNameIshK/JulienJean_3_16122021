@@ -358,7 +358,7 @@ p {
 .fond-menu {
     position: relative;
     top: -55px;
-    background-color: rgb(238,238,238);
+    background-color: rgb(238, 238, 238);
 }
 
 .padding {
@@ -398,6 +398,7 @@ p {
 .marginNone {
     margin: 0;
 }
+
 .flexBetween {
     display: flex;
     justify-content: space-between;
@@ -435,20 +436,66 @@ p {
     margin-top: -55px;
 }
 
-/* Transition */
+/* ANIMATION */
 
 @keyframes transition {
-    0%   { margin-top: -10px;opacity:0; }
-    100% { margin-top: 0;opacity:1; }
+    0% {
+        margin-top: -10px;
+        opacity: 0;
     }
-    .transition {opacity:0;animation: transition .350s ease-in-out .375s forwards;}
-    .transition2 {opacity:0;animation: transition .375s ease-in-out .400s forwards;}
-    .transition3 {opacity:0;animation: transition .425s ease-in-out .450s forwards;}
-    .transition4 {opacity:0;animation: transition .475s ease-in-out .500s forwards;}
-    .transition5 {opacity:0;animation: transition .525s ease-in-out .550s forwards;}
-    .transition6 {opacity:0;animation: transition .575s ease-in-out .600s forwards;}
-    .transition7 {opacity:0;animation: transition .625s ease-in-out .650s forwards;}
-    .transition8 {opacity:0;animation: transition .675s ease-in-out .700s forwards;}
-    .transition9 {opacity:0;animation: transition .725s ease-in-out .750s forwards;}
-    .transition10 {opacity:0;animation: transition .775s ease-in-out .800s forwards;}
-    
+
+    100% {
+        margin-top: 0;
+        opacity: 1;
+    }
+}
+
+.transition {
+    opacity: 0;
+    animation: transition .350s ease-in-out .375s forwards;
+}
+
+.transition2 {
+    opacity: 0;
+    animation: transition .375s ease-in-out .400s forwards;
+}
+
+.transition3 {
+    opacity: 0;
+    animation: transition .425s ease-in-out .450s forwards;
+}
+
+.transition4 {
+    opacity: 0;
+    animation: transition .475s ease-in-out .500s forwards;
+}
+
+.transition5 {
+    opacity: 0;
+    animation: transition .525s ease-in-out .550s forwards;
+}
+
+.transition6 {
+    opacity: 0;
+    animation: transition .575s ease-in-out .600s forwards;
+}
+
+.transition7 {
+    opacity: 0;
+    animation: transition .625s ease-in-out .650s forwards;
+}
+
+.transition8 {
+    opacity: 0;
+    animation: transition .675s ease-in-out .700s forwards;
+}
+
+.transition9 {
+    opacity: 0;
+    animation: transition .725s ease-in-out .750s forwards;
+}
+
+.transition10 {
+    opacity: 0;
+    animation: transition .775s ease-in-out .800s forwards;
+}
