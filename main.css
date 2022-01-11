@@ -426,6 +426,10 @@ p {
     letter-spacing: 1.25px;
 }
 
+.boutton-commander:hover {
+    transform: scale(1.05);
+}
+
 /* Footer */
 
 .marginTopFooter {
