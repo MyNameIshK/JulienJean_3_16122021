@@ -290,7 +290,9 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4%;
+    padding-top: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
     height: 80px;
     padding-bottom: 0;
 }
