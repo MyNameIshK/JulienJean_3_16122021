@@ -174,6 +174,7 @@ p {
 
 .filtres:hover {
     transform: scale(1.05);
+    background-color: #EFE9F5;
 }
 
 .numéro-filtres {
@@ -260,6 +261,22 @@ p {
 .positionnement-coeur {
     padding-bottom: 30px;
     padding-right: 10px;
+}
+
+.fa-heart {
+    color: black;
+}
+
+.fa-heart::before {
+    content: "\f004";
+    transition: color 1s ease-out;
+}
+
+.fa-heart:hover::before{
+    font-weight: bold;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(#9356dc, #ff79da);
 }
 
 /* Footer */
