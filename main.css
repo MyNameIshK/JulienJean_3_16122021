@@ -15,12 +15,19 @@
     animation-fill-mode: forwards;
 }
 
+@keyframes chargement {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
 .fa-cog {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 150px;
-    margin-top: 410px;
+    margin-top: 20%;
     animation: loading 6s linear infinite;
     animation-fill-mode: forwards;
     color: transparent;
@@ -349,6 +356,9 @@ p {
     .bloc-images {
         flex-direction: column;
     }
+    .fa-cog {
+        margin-top: 366px
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -567,24 +577,4 @@ p {
 .transition10 {
     opacity: 0;
     animation: transition .775s ease-in-out .800s forwards;
-}
-
-.chargement {
-    position: fixed;
-    height: 100vh;
-    right: 0;
-    left: 0;
-    background-color: white;
-    opacity: 0.9;
-    z-index: 2;
-    animation: chargement 1.5s;
-    animation-delay: 1.5s;
-    animation-fill-mode: forwards;
-}
-
-@keyframes chargement {
-    100% {
-        opacity: 0;
-        visibility: hidden;
-    }
 }
