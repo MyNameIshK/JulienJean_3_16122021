@@ -1,5 +1,39 @@
 /* PAGE D'ACCEUIL */
 
+/* Chargement */
+
+.chargement {
+    position: fixed;
+    height: 100vh;
+    right: 0;
+    left: 0;
+    background-color: white;
+    opacity: 0.9;
+    z-index: 2;
+    animation: chargement 1.5s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+.fa-cog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+    margin-top: 410px;
+    animation: loading 6s linear infinite;
+    animation-fill-mode: forwards;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(#9356dc, #ff79da);
+}
+
+@keyframes loading {
+    100% {
+        transform:rotate(360deg);
+    }
+}
+
 /* Body */
 
 html, main, section {
@@ -259,8 +293,8 @@ p {
 }
 
 .positionnement-coeur {
-    padding-bottom: 30px;
-    padding-right: 10px;
+    margin-bottom: 30px;
+    margin-right: 10px;
 }
 
 .fa-heart {
@@ -342,7 +376,7 @@ p {
 
 /* MENU A LA FRANCAISE */
 
-/* Image */
+/* Image des menus */
 
 .image-menu {
     object-fit: cover;
@@ -414,6 +448,24 @@ p {
 
 .marginNone {
     margin: 0;
+}
+
+.animation-vignette:hover {
+    background-color: #99e2d0;
+    border-radius: 0 1rem 1rem 0;
+    margin-right: -4rem;
+    width: 4rem;
+    transition: margin-right 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.fa-check {
+    transform: rotate(45deg);
+    font-size: 25px;
+    color: white;
 }
 
 .flexBetween {
@@ -515,4 +567,24 @@ p {
 .transition10 {
     opacity: 0;
     animation: transition .775s ease-in-out .800s forwards;
+}
+
+.chargement {
+    position: fixed;
+    height: 100vh;
+    right: 0;
+    left: 0;
+    background-color: white;
+    opacity: 0.9;
+    z-index: 2;
+    animation: chargement 1.5s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes chargement {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
 }
