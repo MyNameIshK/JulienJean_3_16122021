@@ -304,10 +304,6 @@ p {
     margin-right: 10px;
 }
 
-.fa-heart {
-    color: black;
-}
-
 .fa-heart::before {
     content: "\f004";
     transition: color 1s ease-out;
