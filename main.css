@@ -218,6 +218,10 @@ p {
     background-color: #EFE9F5;
 }
 
+.filtres:hover .couleur-icone {
+    color: #9356dc;
+}
+
 .numéro-filtres {
     position: relative;
     left: -30px;
@@ -231,9 +235,6 @@ p {
     color: grey;
 }
 
-.couleur-icone:hover {
-    color: #9356dc;
-}
 
 .padding-texte-filtres {
     font-size: large;
@@ -451,37 +452,134 @@ p {
     padding-bottom: 15px;
 }
 
+.transition {
+    opacity: 0;
+    animation: transition .350s ease-in-out .375s forwards;
+}
+
+.transition2 {
+    opacity: 0;
+    animation: transition .375s ease-in-out .400s forwards;
+}
+
+.transition3 {
+    opacity: 0;
+    animation: transition .425s ease-in-out .450s forwards;
+}
+
+.transition4 {
+    opacity: 0;
+    animation: transition .475s ease-in-out .500s forwards;
+}
+
+.transition5 {
+    opacity: 0;
+    animation: transition .525s ease-in-out .550s forwards;
+}
+
+.transition6 {
+    opacity: 0;
+    animation: transition .575s ease-in-out .600s forwards;
+}
+
+.transition7 {
+    opacity: 0;
+    animation: transition .625s ease-in-out .650s forwards;
+}
+
+.transition8 {
+    opacity: 0;
+    animation: transition .675s ease-in-out .700s forwards;
+}
+
+.transition9 {
+    opacity: 0;
+    animation: transition .725s ease-in-out .750s forwards;
+}
+
+.transition10 {
+    opacity: 0;
+    animation: transition .775s ease-in-out .800s forwards;
+}
+
 .contenant-bloc {
     background-color: white;
-    display: flex;
-    flex-direction: column;
+    display: flex;  
     box-shadow: 0 0 8px 0 #b8b6b6;
     margin: 10px;
-    padding: 15px;
     border-radius: 25px;
-    padding-bottom: 0;
+    overflow: hidden;
+}
+
+.contenant-bloc:hover .animation-vignette {
+    animation: vignette 0.5s forwards;
+}
+
+.contenant-bloc .animation-vignette {
+    animation: vignette2 0.5s;
+}
+
+.contenant-bloc:hover .fa-check {
+    transform: rotate(360deg);
+}
+
+.ellipsis {
+    padding: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 85%;
+}
+
+.texteEllipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .marginNone {
     margin: 0;
 }
 
-.animation-vignette:hover {
+.paddingNone {
+    padding: 0;
+}
+
+.flexEnd {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-left: auto;
+    padding: 20px;
+    width: 15%;
+}
+
+.paddingPrix {
+    padding-right: 20px;
+}
+
+.animation-vignette {
     background-color: #99e2d0;
     border-radius: 0 1rem 1rem 0;
-    margin-right: -4rem;
-    width: 4rem;
-    transition: margin-right 0.5s;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: -90px;
+    width: 90px;
     flex-shrink: 0;
 }
 
 .fa-check {
-    transform: rotate(45deg);
-    font-size: 25px;
-    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-size: 20px;
+    color: #99e2d0;
+    padding: 5px;
+    border-radius: 50%;
+    transition-duration: 0.8s;
+    transition-property: transform;
 }
 
 .flexBetween {
@@ -535,52 +633,24 @@ p {
     }
 }
 
-.transition {
-    opacity: 0;
-    animation: transition .350s ease-in-out .375s forwards;
+@keyframes vignette {
+    from {
+        margin-right: -90px;
+        opacity: 1;
+    }
+    to {
+        margin-right: 0;
+        opacity: 1;
+    }
 }
 
-.transition2 {
-    opacity: 0;
-    animation: transition .375s ease-in-out .400s forwards;
-}
-
-.transition3 {
-    opacity: 0;
-    animation: transition .425s ease-in-out .450s forwards;
-}
-
-.transition4 {
-    opacity: 0;
-    animation: transition .475s ease-in-out .500s forwards;
-}
-
-.transition5 {
-    opacity: 0;
-    animation: transition .525s ease-in-out .550s forwards;
-}
-
-.transition6 {
-    opacity: 0;
-    animation: transition .575s ease-in-out .600s forwards;
-}
-
-.transition7 {
-    opacity: 0;
-    animation: transition .625s ease-in-out .650s forwards;
-}
-
-.transition8 {
-    opacity: 0;
-    animation: transition .675s ease-in-out .700s forwards;
-}
-
-.transition9 {
-    opacity: 0;
-    animation: transition .725s ease-in-out .750s forwards;
-}
-
-.transition10 {
-    opacity: 0;
-    animation: transition .775s ease-in-out .800s forwards;
+@keyframes vignette2 {
+    from {
+        margin-right: 0;
+        opacity: 1;
+    }
+    to {
+        margin-right: -90px;
+        opacity: 1;
+    }
 }
