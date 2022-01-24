@@ -37,13 +37,15 @@
 
 @keyframes loading {
     100% {
-        transform:rotate(360deg);
+        transform: rotate(360deg);
     }
 }
 
 /* Body */
 
-html, main, section {
+html,
+main,
+section {
     width: 100%;
 }
 
@@ -55,30 +57,30 @@ body {
 /* Police */
 
 @font-face {
-    font-family: 'Roboto';
-    src: url('Police/Roboto-Light.ttf') format("truetype");
+    font-family: "Roboto";
+    src: url("Police/Roboto-Light.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'RobotoBold';
-    src: url('Police/Roboto-Bold.ttf') format("truetype");
+    font-family: "RobotoBold";
+    src: url("Police/Roboto-Bold.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'Shrikhand';
-    src: url('Police/Shrikhand-Regular.otf') format("opentype");
+    font-family: "Shrikhand";
+    src: url("Police/Shrikhand-Regular.otf") format("opentype");
 }
 
 .robotoBold {
-    font-family: 'RobotoBold';
+    font-family: "RobotoBold";
 }
 
 .roboto {
-    font-family: 'Roboto';
+    font-family: "Roboto";
 }
 
 .shrikhand {
-    font-family: 'Shrikhand';
+    font-family: "Shrikhand";
 }
 
 /*~ Header ~*/
@@ -90,7 +92,7 @@ a {
 }
 
 .h1-ohmyfood {
-    font-family: 'Shrikhand';
+    font-family: "Shrikhand";
     text-align: center;
     position: relative;
     box-shadow: 0px 5px 6px 0px #b8b6b6;
@@ -109,7 +111,7 @@ a {
 }
 
 .h1-menu {
-    font-family: 'Shrikhand';
+    font-family: "Shrikhand";
     text-align: center;
     margin: 0;
     width: 100%;
@@ -128,7 +130,7 @@ a {
 }
 
 h2 {
-    font-family: 'RobotoBold';
+    font-family: "RobotoBold";
 }
 
 /* Explorer nos restaurants */
@@ -150,18 +152,18 @@ h2 {
 }
 
 h3 {
-    font-family: 'RobotoBold';
+    font-family: "RobotoBold";
     font-size: 1.5em;
     margin-bottom: 0px;
 }
 
 p {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     padding-bottom: 20px;
 }
 
 .boutton-explorer {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-size: 17px;
     padding: 15px 20px;
     border-radius: 32px;
@@ -215,7 +217,7 @@ p {
 
 .filtres:hover {
     transform: scale(1.05);
-    background-color: #EFE9F5;
+    background-color: #efe9f5;
 }
 
 .filtres:hover .couleur-icone {
@@ -234,7 +236,6 @@ p {
 .couleur-icone {
     color: grey;
 }
-
 
 .padding-texte-filtres {
     font-size: large;
@@ -283,7 +284,7 @@ p {
     color: #07894c;
     background-color: #96ffce;
     padding: 10px;
-    font-family: 'RobotoBold';
+    font-family: "RobotoBold";
     border-radius: 5px;
     box-shadow: 0 0 10px 1px black;
 }
@@ -313,7 +314,7 @@ p {
     transition: color 0.3s ease-out;
 }
 
-.fa-heart:hover::before{
+.fa-heart:hover::before {
     font-weight: bold;
     color: transparent;
     -webkit-background-clip: text;
@@ -357,7 +358,7 @@ p {
         flex-direction: column;
     }
     .fa-cog {
-        margin-top: 366px
+        margin-top: 366px;
     }
 }
 
@@ -410,7 +411,7 @@ p {
     background-color: rgb(238, 238, 238);
     border-radius: 45px 45px 0 0;
     font-size: xx-large;
-    font-family: 'Shrikhand';
+    font-family: "Shrikhand";
 }
 
 .marginRightBottom {
@@ -436,13 +437,13 @@ p {
 }
 
 .texte-titre-bloc {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     margin: 10px;
     margin-bottom: 6px;
 }
 
 .texte-titre-bloc2 {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-size: large;
     margin: 10px;
     padding-top: 30px;
@@ -453,63 +454,63 @@ p {
     width: 40px;
     height: 3px;
     margin-left: 10px;
-    border-top: 3px solid #99E2D0;
+    border-top: 3px solid #99e2d0;
     padding-bottom: 15px;
 }
 
 .transition {
     opacity: 0;
-    animation: transition .350s ease-in-out .375s forwards;
+    animation: transition 0.35s ease-in-out 0.375s forwards;
 }
 
 .transition2 {
     opacity: 0;
-    animation: transition .375s ease-in-out .400s forwards;
+    animation: transition 0.375s ease-in-out 0.4s forwards;
 }
 
 .transition3 {
     opacity: 0;
-    animation: transition .425s ease-in-out .450s forwards;
+    animation: transition 0.425s ease-in-out 0.45s forwards;
 }
 
 .transition4 {
     opacity: 0;
-    animation: transition .475s ease-in-out .500s forwards;
+    animation: transition 0.475s ease-in-out 0.5s forwards;
 }
 
 .transition5 {
     opacity: 0;
-    animation: transition .525s ease-in-out .550s forwards;
+    animation: transition 0.525s ease-in-out 0.55s forwards;
 }
 
 .transition6 {
     opacity: 0;
-    animation: transition .575s ease-in-out .600s forwards;
+    animation: transition 0.575s ease-in-out 0.6s forwards;
 }
 
 .transition7 {
     opacity: 0;
-    animation: transition .625s ease-in-out .650s forwards;
+    animation: transition 0.625s ease-in-out 0.65s forwards;
 }
 
 .transition8 {
     opacity: 0;
-    animation: transition .675s ease-in-out .700s forwards;
+    animation: transition 0.675s ease-in-out 0.7s forwards;
 }
 
 .transition9 {
     opacity: 0;
-    animation: transition .725s ease-in-out .750s forwards;
+    animation: transition 0.725s ease-in-out 0.75s forwards;
 }
 
 .transition10 {
     opacity: 0;
-    animation: transition .775s ease-in-out .800s forwards;
+    animation: transition 0.775s ease-in-out 0.8s forwards;
 }
 
 .contenant-bloc {
     background-color: white;
-    display: flex;  
+    display: flex;
     box-shadow: 0 0 8px 0 #b8b6b6;
     margin: 10px;
     border-radius: 25px;
@@ -597,7 +598,7 @@ p {
 }
 
 .boutton-commander {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-size: 17px;
     padding: 15px 45px;
     border-radius: 32px;
